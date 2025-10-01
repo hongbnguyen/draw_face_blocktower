@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "draw_face_blocktower: PsychoPy visual perception experiment"
+authors:
+  - family-names: Nguyen
+    given-names: Hong B.
+date-released: 2025-09-30
+license: MIT
+repository-code: https://github.com/your-username/your-repo

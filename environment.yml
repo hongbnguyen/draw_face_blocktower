@@ -1,0 +1,12 @@
+name: psychopy-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - psychopy
+  - numpy
+  - pandas
+  - pyglet
+  - pip
+  - pip:
+      - pillow

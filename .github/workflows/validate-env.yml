@@ -1,0 +1,21 @@
+name: validate-env
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: psychopy-env
+          environment-file: environment.yml
+          auto-activate-base: false
+      - name: Show Python and installed packages
+        shell: bash -l 
+        run: |
+          python -V
+          python -c "import psychopy, sys; print('PsychoPy', psychopy.__version__)"

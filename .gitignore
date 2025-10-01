@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PsychoPy-generated data and logs
+data/
+logs/
+*.log
+*lastrun.py
+*lastrun.pyc
+
+# Large media (recommend Git LFS instead)
+stimuli/**/*
+!stimuli/.keep
+
+# Cache
+.cache/
