@@ -135,7 +135,7 @@ draw_face_blocktower_repo/
     - _No components parsed_
 
 **External Resources Referenced**  
-_No external files referenced or not detectable._
+_No external files referenced._
 
 > _Note_: The parser is heuristic; verify components and resources in Builder.
 
